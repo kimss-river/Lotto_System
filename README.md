@@ -8,31 +8,15 @@
 ＊ ‘초기화’ 버튼을 누르면 화면이 초기화 된다.   
    
    
-![1](https://user-images.githubusercontent.com/61627637/85242726-c6a60400-b47a-11ea-9039-b1bdd80d7267.PNG)
+![2](https://user-images.githubusercontent.com/61627637/85243624-5351c180-b47d-11ea-84d1-e648f945d5cc.png)
    
-```c
-	MyButton[] mbt = new MyButton[7];
-
-	JButton checkBtn = new JButton("해당 회차 이동");
-	JButton resultBtn = new JButton("결과확인");
-	JButton resetBtn = new JButton("초기화");
-
-	JTextField turnTxt = new JTextField();
-	JTextField[] ipt = new JTextField[6];
-
-	JLabel titleLbl = new JLabel("로또 번호 조회");
-	JLabel turnLbl = new JLabel("");
-	JLabel pLbl = new JLabel("+");
-	JLabel numCheckLbl = new JLabel("내 번호 당첨 확인");
-	JLabel dateLbl = new JLabel("");
-	JLabel resultLbl = new JLabel("");
-  ```
-     
-![2](https://user-images.githubusercontent.com/61627637/85242818-053bbe80-b47b-11ea-950e-bee457300400.PNG)
+* 해당 회차의 번호와 사용자가 입력한 번호를 비교하고 당첨 여부를 알 수 있게 구현했다.
    
-
-![3](https://user-images.githubusercontent.com/61627637/85242822-079e1880-b47b-11ea-97ba-02c3d9582ecd.PNG)
+![3](https://user-images.githubusercontent.com/61627637/85243627-551b8500-b47d-11ea-85f7-7d70bb994575.png)
    
-
-![4](https://user-images.githubusercontent.com/61627637/85242831-0967dc00-b47b-11ea-9c62-bb30df21e5d2.PNG)
+* 동행복권 당첨번호 페이지에서 JSON 데이터를 파싱하여 출력한다.
+* txtfield에 회차를 입력하고 ‘해당 회차 이동’ 버튼을 클릭하면 원하는 회차의 결과를 확인할 수 있다.
    
+![4](https://user-images.githubusercontent.com/61627637/85243628-55b41b80-b47d-11ea-964b-aab8f30a5cc6.png)
+   
+* 프로그램이 정상적으로 작동했을 때 결과 화면.
