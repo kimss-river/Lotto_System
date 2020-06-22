@@ -7,6 +7,9 @@
 ＊ 동행복권 ( https://nlotto.co.kr/ ) 당첨번호 페이지에서 JSON 데이터를 파싱하여 출력한다.   
 ＊ ‘초기화’ 버튼을 누르면 화면이 초기화 된다.   
    
+### 개발환경
+
+* Eclipce Java 1.8
    
 ![2](https://user-images.githubusercontent.com/61627637/85243624-5351c180-b47d-11ea-84d1-e648f945d5cc.png)
    
